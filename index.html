@@ -924,37 +924,38 @@
                     <button class="sub-tab active" onclick="switchReport(3, 0)">Justice-Impacted Metrics</button>
                 </div>
 
-                <!-- Report: Delay Analysis -->
-                <div class="report-content active" id="report-0-0">
-                    <div class="report-header">
-                        <h2>Delay Analysis Dashboard</h2>
-                        <select class="date-selector">
-                            <option>Last 30 Days</option>
-                            <option>Last 90 Days</option>
-                            <option>Last 6 Months</option>
-                            <option>Last Year</option>
-                        </select>
-                    </div>
+               <div class="container">
+        <div class="report-content active" id="report-0-0">
+            <div class="report-header">
+                <h2>Delay Analysis Dashboard</h2>
+                <select class="date-selector">
+                    <option>Last 30 Days</option>
+                    <option>Last 90 Days</option>
+                    <option>Last 6 Months</option>
+                    <option>Last Year</option>
+                </select>
+            </div>
 
-                    <div class="metrics-grid">
-                        <div class="metric-card">
-                            <div class="metric-value">18hrs</div>
-                            <div class="metric-label">Avg Turnaround</div>
-                            <div class="metric-change negative">▼ 12%</div>
-                        </div>
-                        <div class="metric-card">
-                            <div class="metric-value">47</div>
-                            <div class="metric-label">Delayed Reports</div>
-                            <div class="metric-change negative">▲ 8</div>
-                        </div>
-                        <div class="metric-card">
-                            <div class="metric-value">3</div>
-                            <div class="metric-label">Court Closures</div>
-                            <div class="metric-change">—</div>
-                        </div>
-                    </div>
-   <div class="chart-container">
-                <div class="chart-title">Root Causes of Delays Cody</div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">18hrs</div>
+                    <div class="metric-label">Avg Turnaround</div>
+                    <div class="metric-change negative">▼ 12%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">47</div>
+                    <div class="metric-label">Delayed Reports</div>
+                    <div class="metric-change negative">▲ 8</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">3</div>
+                    <div class="metric-label">Court Closures</div>
+                    <div class="metric-change">—</div>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Root Causes of Delays</div>
                 <div class="pie-chart">
                     <div class="pie-visual"></div>
                     <div class="pie-legend">
@@ -1021,7 +1022,8 @@
                     </tbody>
                 </table>
             </div>
-        </div>                    
+        </div>
+    </div>
                 <!-- Report: Performance Comparison -->
                 <div class="report-content" id="report-0-1">
                     <div class="report-header">
